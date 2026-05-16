@@ -1,0 +1,22 @@
+name = "lexzaiello-github-io"
+version = "0.1.0"
+defaultTargets = ["MyBlog", "site"]
+
+[[lean_lib]]
+name = "MyBlog"
+needs = ["@Dcc/+Dcc:highlighted"]
+
+[[require]]
+name = "verso"
+git = "https://github.com/leanprover/verso.git"
+rev = "main"
+
+[[require]]
+name = "Dcc"
+git = "https://github.com/lexzaiello/dcc.git"
+rev = "master"
+
+[[lean_exe]]
+name = "site"
+root = "SiteMain"
+srcDir = "."
