@@ -12,7 +12,7 @@ description = "Dependently-typed combinator calculus."
 
 # Dependently-Typed Combinators
 
-*This project is available on GitHub [here](https://github.com/lexzaiello/dcc).*
+*This project is available on GitHub [here](https://github.com/lexzaiello/dcc) and the paper is available [here](http://lexzaiello.com/DCC/dcc_paper.pdf)*
 
 Combinatory logics like the [SK and BCKI combinator calcului](https://en.wikipedia.org/wiki/Combinatory_logic) have been well-known for being a Turing-complete system of computation despite being quite small and having no variables. Their equations are as such:
 
