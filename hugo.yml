@@ -1,9 +1,9 @@
 baseURL: "/"
 languageCode: "en-us"
-title: "Alexandra Zaldivar Aiello"
+title: "Lexi Zaldivar Aiello"
 theme: ["terminal"]
 params:
-  author: "Alexandra Zaldivar Aiello"
+  author: "Lexi Zaldivar Aiello"
   contentTypeName: "posts"
   showCodeCopyButtons: true
   showPostNavLinks: true
@@ -14,7 +14,7 @@ params:
   showMenuItems: 2
   showBreadCrumbs: true
   homeInfoParams:
-    Title: Alexandra Aiello
+    Title: Lexi Aiello
     Content: Computer Scientist
   fullWidthTheme: false
 
@@ -27,11 +27,11 @@ params:
 languages:
   en:
     languageName: "English"
-    title: "Alexandra Zaldivar Aiello"
+    title: "Lexi Zaldivar Aiello"
 
     params:
       subtitle: "Computer Scientist"
-      owner: "Alexandra Zaldivar Aiello"
+      owner: "Lexi Zaldivar Aiello"
       keywords: ""
       copyright: ""
       menuMore: "Show more"
@@ -45,7 +45,7 @@ languages:
       words: "words"
 
       logo:
-        logoText: "Alexandra Zaldivar Aiello"
+        logoText: "Lexi Zaldivar Aiello"
         logoHomeLink: "/"
 
       menu:

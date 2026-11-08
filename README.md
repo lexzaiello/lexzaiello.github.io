@@ -1,3 +1,3 @@
-# Alexandra Aiello's Personal Site
+# Lexi Aiello's Personal Site
 
 Welcome!

@@ -99,10 +99,42 @@ if (document.getElementById('--verso-component-0')) { initGreeter(); }
     <main><div class="wrap">
         <article><h1>
             Posts</h1>
-          <p>
-            All posts.
-</p>
-          </article></div>
+          </article><div class="category-directory">
+          <h2>
+            Categories</h2>
+          <ul>
+            <li>
+              <a href="posts/sk/">Combinatory logic</a></li>
+            </ul>
+          </div>
+        <h2>
+          Posts</h2>
+        <ul class="post-list">
+          <li>
+            <a href="posts/2026-5-16-towards-a-dependentlytyped-sk-combinator-calculus" class="title"><span class="name">Towards a Dependently-Typed SK Combinator Calculus</span></a><div class="metadata">
+              <div class="authors">
+                <span class="author">Lexi Aiello</span></div>
+              <div class="date">
+                2026-05-16</div>
+              <ul class="categories">
+                <li>
+                  <a href="posts/sk">Combinatory logic</a></li>
+                </ul>
+              </div>
+            <p>
+              <em>This project is available on GitHub <a href="https://github.com/lexzaiello/dcc">here</a>.</em></p>
+            <p>
+              Whenever I learn something new, I find myself coming back to <a href="https://en.wikipedia.org/wiki/Combinatory_logic">combinatory logic</a>. Combinatory logics, particularly the <a href="https://en.wikipedia.org/wiki/SKI_combinator_calculus">SK combinator calculus</a> are well known for being <strong>tiny</strong> (but still useful). For example, the <em>SK</em> combinators are turing complete despite being just two rules:</p>
+            <p>
+              <code class="math display">
+K x y = x \\
+S x y z = (x z) (y z)
+</code></p>
+            <p>
+              These <em>rewrite rules</em> alone can simulate a turing machine, with the right encoding.</p>
+            <a href="posts/2026-5-16-towards-a-dependentlytyped-sk-combinator-calculus" class="read-more">Read more</a></li>
+          </ul>
+        </div>
       </main></body>
   </html>
 
